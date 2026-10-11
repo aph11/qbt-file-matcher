@@ -1,6 +1,6 @@
 module qbt-file-matcher
 
-go 1.26
+go 1.25
 
 require (
 	github.com/autobrr/go-qbittorrent v1.16.0
