@@ -226,7 +226,7 @@ jobs:
           draft: true
           prerelease: ${{ steps.set-tag.outputs.is_prerelease }}
 
-    build-linux:
+  build-linux:
     name: Build Linux (${{ matrix.arch }})
     runs-on: ${{ matrix.runner }}
     strategy:
